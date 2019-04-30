@@ -1,13 +1,18 @@
 <html>
-<title> Aš valdau HTML <?php print 'ir PHP!'; ?> </title>
+<head>
+    <title> Aš, <?php print 'antradienis ir php';?> ?> </title>
+</head>
+
+
 
 <body>
-<h1>   Vardas - HTML <?php print 'ir php';?>  asas/ė!</h1>
+<h1>   Vardas - HTML <?php print 'ir php';?>  asas/ė! jau nuo <?php print date('Y').'metų' ; ?> metų</h1>
 
-<p> Kuriu dinaminį turinį. Atidaryti: <?php print date('Y-m-d H:i:s');?></p>
+<p> Viskas praidėjo <?php print date('m').'mėnesio.'.date('d').'dieną!';?></p>
+
+
 
 </body>
-
 
 
 </html>
