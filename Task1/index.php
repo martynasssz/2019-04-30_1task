@@ -1,12 +1,11 @@
 <html>
 <head>
-    <title> Aš, <?php print 'antradienis ir php';?> ?> </title>
+    <title> <?php print 'PHP lydės ir ryt'.date('Y-m-d',strtotime('+1 days'));?> ?> </title>
 </head>
 
 
-
 <body>
-<h1>   Vardas - HTML <?php print 'ir php';?>  asas/ė! jau nuo <?php print date('Y').'metų' ; ?> metų</h1>
+<h1>   Vardas <?php print 'PHP su manim buvo ir'.date('h',strtotime('-1 hour')).'valandą!';?> </h1>
 
 <p> Viskas praidėjo <?php print date('m').'mėnesio.'.date('d').'dieną!';?></p>
 
