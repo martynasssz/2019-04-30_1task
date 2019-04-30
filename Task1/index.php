@@ -1,15 +1,15 @@
 <html>
-<head>
-    <meta charset="utf-8">
-    <title> Aš valdau</title>
+<title> Aš valdau HTML <?php print 'ir PHP!'; ?> </title>
 
-</head>
 <body>
+<h1>   Vardas - HTML <?php print 'ir php';?>  asas/ė!</h1>
 
-<h1>Vardas HTML asas</h1>
-<p>Moku kurti statinį turinį</p>
+<p> Kuriu dinaminį turinį. Atidaryti: <?php print date('Y-m-d H:i:s');?></p>
+
 </body>
 
 
 
 </html>
+
+
